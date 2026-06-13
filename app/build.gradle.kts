@@ -96,10 +96,10 @@ configure<ApplicationExtension> {
         // the amount of trailing zeros depends on the amount of digits the
         // defaultConfig.versionCode has -> we just prepend our increasing
         // versionCode before those zeros.
-        val braveVersionCode = 580000
+        val braveVersionCode = 590000
         // -> our versionName will be added as suffix to defaultConfig.versionName
         // We use major.minor.patch
-        val braveVersionName = "2.8.2"
+        val braveVersionName = "2.8.3"
 
         create("sponsorblock") { // only for strings of sponsorblock stuff
             dimension = "default"
@@ -421,9 +421,9 @@ project.dependencies.implementation("com.github.evermind-zz.AppUpdater:app-updat
 // the eventbus
 project.dependencies.implementation("org.greenrobot:eventbus:3.3.1")
 // the BravePipeExtractor
-project.dependencies.implementation("com.github.bravepipeproject:extractor:v0.26.3-2.3.6")
+project.dependencies.implementation("com.github.bravepipeproject:extractor:v0.26.5-2.3.7")
 // the LogcatToolkit
-project.dependencies.implementation("com.github.evermind-zz:logcat-toolkit:1.0.0")
+project.dependencies.implementation("com.github.evermind-zz:logcat-toolkit:1.0.1")
 // cf challenge helper
 project.dependencies.implementation("com.github.evermind-zz:challengeFloatsAway:1.1.1")
 
