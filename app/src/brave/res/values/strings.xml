@@ -148,10 +148,6 @@
     <string name="brave_tip_goto_website">Go To Website</string>
     <string name="brave_tip_support">Support this project.</string>
 
-    <!-- begin - youtube podcasts feature -->
-    <string name="channel_tab_podcasts">Podcasts</string>
-    <!-- end - youtube podcasts feature -->
-
     <!-- begin - settings/info for rumble cloudflare challenge handling -->
     <string name="brave_rumble_cf_exception_info">Rumble cloudflare error. Activate this setting if not already enabled: settings → brave settings → Handle Rumble cloudflare challenge</string>
 

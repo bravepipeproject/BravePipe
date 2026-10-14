@@ -12,11 +12,6 @@
     <string-array name="brave_settings_host_replace_default_values"></string-array>
     <!-- end - BraveHostInterceptor config option data -->
 
-    <!-- begin - youtube podcasts feature -->
-    <string name="show_channel_tabs_podcasts">show_channel_tabs_podcasts</string>
-    <string name="fetch_channel_tabs_podcasts">fetch_channel_tabs_podcasts</string>
-    <!-- end - youtube podcasts feature -->
-
     <!-- begin - BraveCChallenge403Interceptor config option data -->
     <string name="brave_settings_handle_cloudflare_challenge_enable_key">brave_settings_handle_cloudflare_challenge_enable_key</string>
     <string name="brave_settings_handle_cloudflare_challenge_interactive_enable_key">brave_settings_handle_cloudflare_challenge_interactive_enable_key</string>
