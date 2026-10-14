@@ -48,6 +48,7 @@ class BraveLogcatDumper {
         fun triggerLogCapture(): Long {
             val time = System.currentTimeMillis()
             if (isLogcatDumperEnabled()) {
+                ensureLogFolderMarker(App.instance)
                 logcatDump.dump(time, CAPTURE_PERIOD_BEFORE_TIMESTAMP)
             }
             return time

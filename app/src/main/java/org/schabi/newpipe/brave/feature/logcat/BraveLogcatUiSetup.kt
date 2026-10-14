@@ -8,11 +8,13 @@ import java.io.BufferedWriter
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
+import org.schabi.newpipe.App
 import org.schabi.newpipe.BuildConfig
 
 object BraveLogcatUiSetup {
 
     fun setLogcatOutputFileFormat() {
+        ensureLogFolderMarker(App.instance)
         Settings.Default.update { current ->
             current.copy(
                 logfileFormat = BraveLogFileFormat(),
